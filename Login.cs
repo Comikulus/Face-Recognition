@@ -20,7 +20,7 @@ namespace ContosoFestivalCheckIn
         public Login()
         {
             InitializeComponent();
-            con = new SqlConnection(@"Data Source=contosofestival.database.windows.net;Initial Catalog=ContosoFestival;Persist Security Info=True;User ID=.PDF;Password=AdyEndreinfo17");
+            con = new SqlConnection(@"Data Source=contosofestival.database.windows.net;Initial Catalog=ContosoFestival;Persist Security Info=True;User ID=user;Password=password");
             button1.Focus();
         }
 
