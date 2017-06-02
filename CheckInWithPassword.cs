@@ -20,7 +20,7 @@ namespace ContosoFestivalCheckIn
         public CheckInWithPassword()
         {
             InitializeComponent();
-            con = new SqlConnection(@"Data Source=contosofestival.database.windows.net;Initial Catalog=ContosoFestival;Persist Security Info=True;User ID=.PDF;Password=AdyEndreinfo17");
+            con = new SqlConnection(@"Data Source=contosofestival.database.windows.net;Initial Catalog=ContosoFestival;Persist Security Info=True;User ID=user;Password=password");
             DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
             btn.HeaderText = "Kép betöltése";
             dataGridView1.Columns.Add(btn);
