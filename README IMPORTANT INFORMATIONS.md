@@ -1,6 +1,6 @@
 # Face-Recognition
 Authentification via Face Recognition using Microsoft Cognitive Services and Azure Database. The application is in Hungarian
-If you want to use this app, all you need is Microsoft Azure Account with Azure Pass.
+If you want to use this app, all you need is Microsoft Azure Account with Azure Pass. You need to create an AzureStorageAccount (ConnectionString in App.config), use Cognitive Services ( APIKEY + faceListId) and SqlDatabase (Connection String)
 There are some packages that are required to run this app:
 
 using System.Data.SqlClient;
