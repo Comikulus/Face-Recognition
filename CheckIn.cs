@@ -39,7 +39,7 @@ namespace ContosoFestivalCheckIn
             button1.Focus();
             userID = id;
             update = new SqlCommand("update CheckInUsers set ImgNum=@ImgNum where UserID=@UserID", con);
-            con = new SqlConnection(@"Data Source=contosofestival.database.windows.net;Initial Catalog=ContosoFestival;Persist Security Info=True;User ID=.PDF;Password=AdyEndreinfo17");
+            con = new SqlConnection(@"Data Source=contosofestival.database.windows.net;Initial Catalog=ContosoFestival;Persist Security Info=True;User ID=user;Password=password");
             con.Open();
             SqlCommand cmd = new SqlCommand("select NameContainer from CheckInUsers where UserID=@id", con);
             cmd.Parameters.AddWithValue("@id", id);
